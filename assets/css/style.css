@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+.header-section{
+    padding: 60px 0px;
+}
+body{
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    background-image: linear-gradient(rgb(11, 15, 75),rgb(197, 186, 186));
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.header-section h1{
+    color: whitesmoke;
+    font-size: 63px;
+}
+.header-section h2{
+    color: white;
+}
+.header-section ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.header-section ul li a{
+    height: 50px;
+    width: 50px;
+    font-size: 24px;
+    color: gold;
+}
+.header-section ul li{
+
+    padding: 0px 5px;
+}
+.header{
+    text-align: center;
+}
+.about-content{
+    display: flex;
+    justify-content: center;
+
+}
+.about-txt p{
+    font-size: 18px;
+    text-align: justify;
+    padding-top: 15px;
+}
+
+.about-img{
+    width: 50%;
+    margin-right: 3%;
+    margin-left: 6%;
+}
+.about-img img{
+    width: 100%;
+}
+.title{
+    padding-bottom: 40px;
+}
+.title h2{
+    font-size: 27px;
+}
+.about, .project, .language, .education, .contact{
+    background-image: linear-gradient(rgb(255, 255, 255), rgba(241, 238, 250, 0.897));
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+.single-project{
+    width: 32%;
+    margin-right: 2%;
+    
+}
+.single-project:last-child {
+    
+    margin-right: 0%;
+    
+}
+.single-project img{
+    width: 100%;
+}
+.flexible{
+    display: flex;
+}
+.language ul{
+    display: flex;
+}
+.language ul li{
+    padding-right: 50px;
+    font-size: 20px;
+}
+.gray{
+    color: gray;
+    opacity: 60%;
+}
+.education-wrap{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.contact input, .contact textarea{
+    display: block;
+    margin-bottom: 15px ;
+    width: 100%;
+    padding: 15px;
+    background-color: #a0aebe4d;
+    border: 0;
+    outline: 0;
+    box-shadow: 0;
+}
+.contact input[type=submit]{
+    margin: 0 auto;
+    background-image: linear-gradient(rgb(21, 48, 202),rgb(139, 165, 165));
+    width: 15%;
+    border-radius: 10px;
+    color: cornsilk;
+    font-size: 18px;
+}
